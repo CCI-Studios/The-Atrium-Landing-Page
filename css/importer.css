@@ -1,0 +1,121 @@
+@import url("https://fonts.googleapis.com/css?family=Dosis:300,400|Lato:300,400,700&display=swap");
+* {
+  margin: 0;
+  padding: 0; }
+
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  background: url(../images/bg.jpg) no-repeat center center;
+  background-size: cover;
+  color: white; }
+
+p {
+  line-height: 1.5;
+  margin-bottom: 1.5em; }
+  p:last-child {
+    margin-bottom: 0; }
+
+.page-wrapper {
+  position: relative; }
+
+.social-menu {
+  list-style: none;
+  font-size: 0;
+  margin: 0;
+  padding: 25px;
+  text-align: right; }
+  .social-menu li {
+    display: inline-block;
+    list-style: none;
+    margin-right: 14px; }
+    .social-menu li:last-child {
+      margin-right: 0; }
+  .social-menu a {
+    font-size: 0;
+    display: block;
+    width: 21px;
+    height: 21px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain; }
+  .social-menu .fb {
+    background-image: url(../images/social-fb-green.svg);
+    width: 18px; }
+  .social-menu .ig {
+    background-image: url(../images/social-ig-green.svg); }
+
+.header-logo {
+  margin-bottom: 48px;
+  filter: drop-shadow(2px 2px 6px rgba(0, 0, 0, 0.45)); }
+  .header-logo img {
+    display: block;
+    width: 100%;
+    height: auto; }
+
+.section1 {
+  padding: 50px 25px;
+  color: white;
+  text-align: center;
+  text-shadow: 0 2px 5px rgba(0, 0, 0, 0.55);
+  font-weight: 300; }
+  .section1 > div {
+    max-width: 820px;
+    margin: 0 auto; }
+  .section1 h2 {
+    font-weight: bold;
+    font-size: 28px;
+    margin-bottom: 25px;
+    font-weight: normal; }
+
+.section2 {
+  background-color: rgba(0, 46, 64, 0.5);
+  color: white;
+  padding: 50px 25px;
+  text-align: center; }
+  .section2 > div {
+    max-width: 600px;
+    margin: 0 auto; }
+  .section2 h2 {
+    font-family: 'Dosis';
+    font-weight: 300;
+    text-align: center;
+    font-size: 78px;
+    line-height: 1;
+    margin-bottom: 0;
+    text-transform: uppercase;
+    color: #00709c;
+    letter-spacing: 5px; }
+    @media (max-width: 760px) {
+      .section2 h2 {
+        font-size: 38px; } }
+    .section2 h2:after {
+      content: "";
+      display: block;
+      width: 50px;
+      height: 3px;
+      background: #b5da9c;
+      border-radius: 2px;
+      margin: 25px auto; }
+  .section2 p {
+    font-size: 24px; }
+  .section2 a {
+    font-weight: bold;
+    color: #b5da9c;
+    text-decoration: none; }
+    .section2 a:hover {
+      text-decoration: underline; }
+
+.section3 {
+  padding: 50px 25px;
+  color: white;
+  text-align: center;
+  font-family: 'Dosis';
+  font-size: 20px;
+  font-weight: 400;
+  text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.45);
+  text-transform: uppercase;
+  letter-spacing: 3px; }
